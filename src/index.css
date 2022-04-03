@@ -4,10 +4,10 @@
 
 
 .nav-link{
-  @apply text-xl font-medium text-slate-900/50 hover:text-slate-900 transition duration-300 underline underline-offset-2 decoration-slate-900/50 hover:decoration-slate-900 decoration-[3px];
+  @apply text-xl font-medium text-slate-900/50 hover:text-slate-900 transition duration-300;
 }
 
 .nav-link-active{
-  @apply text-xl font-medium text-slate-900 scale-[1.15] underline underline-offset-2 decoration-slate-900 decoration-[3px] transition duration-300;
+  @apply text-xl font-medium text-slate-900 scale-[1.15]  border-b-[3px] border-b-slate-900 transition duration-300 rounded-sm;
 }
 
