@@ -15,7 +15,7 @@ const Header = () => {
             <section className={`duration-500 container mx-auto flex justify-between p-3 sm:justify-center bg-white`}>
                 <img className='sm:hidden w-10 h-10 active:scale-90 transition cursor-pointer' src={menu[2]} alt="" onClick={closeMenu} />
                 <nav className={`${menu[0]} transition-[height] overflow-hidden duration-300 grow px-2 flex flex-col gap-5 justify-start items-end sm:flex-row sm:justify-center sm:items-center sm:px-0 sm:grow-0 sm:h-8 sm:overflow-visible sm:transition-none`}>
-                    <NavLink to='/home' className={(navInfo)=> navInfo.isActive?'nav-link-active':'nav-link'}>Home</NavLink>
+                    <NavLink to='/home' scro className={(navInfo)=> navInfo.isActive?'nav-link-active':'nav-link'}>Home</NavLink>
                     <NavLink to='/reviews' className={(navInfo)=> navInfo.isActive?'nav-link-active':'nav-link'}>Reviews</NavLink>
                     <NavLink to='/dashboard' className={(navInfo)=> navInfo.isActive?'nav-link-active':'nav-link'}>Dashboard</NavLink>
                     <NavLink to='/blogs' className={(navInfo)=> navInfo.isActive?'nav-link-active':'nav-link'}>Blogs</NavLink>
