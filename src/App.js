@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import Dashboard from "./Components/Dashboard";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import NotFound from "./Components/NotFound";
@@ -15,13 +16,13 @@ function App() {
     <div className="">
       <Header></Header>
       <Routes>
-        <Route path="/" element={<Navigate to='/home'/>}></Route>
-        <Route path="/home" element={<Home/>}></Route>
-        <Route path="/reviews" element={<Reviews/>}></Route>
-        <Route path="" element={''}></Route>
-        <Route path="" element={''}></Route>
-        <Route path="" element={''}></Route>
-        <Route path="/*" element={<NotFound></NotFound>}></Route>
+        <Route path="/" element={<Navigate to='/home'/>}/>
+        <Route path="/home" element={<Home/>}/>
+        <Route path="/reviews" element={<Reviews/>}/>
+        <Route path="/dashboard" element={<Dashboard/>}/>
+        <Route path="" element={''}/>
+        <Route path="" element={''}/>
+        <Route path="/*" element={<NotFound/>}/>
       </Routes>
 
     </div>
