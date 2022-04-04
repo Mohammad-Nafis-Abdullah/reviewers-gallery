@@ -3,7 +3,7 @@ import { Radar, RadarChart, PolarGrid, Legend, PolarAngleAxis, PolarRadiusAxis }
 
 const SellRadar = ({data}) => {
     return (
-        <RadarChart cx={160} cy={200} outerRadius={135} width={320} height={410} data={data} className='mx-auto'>
+        <RadarChart cx={160} cy={180} outerRadius={135} width={320} height={380} data={data} className='mx-auto'>
             <PolarGrid />
             <PolarAngleAxis dataKey="month" />
             <PolarRadiusAxis angle={30} domain={[0, 150]} />
