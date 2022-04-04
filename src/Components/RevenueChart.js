@@ -19,7 +19,7 @@ export default function RevenueChart({data}) {
         (o) => {
             const { dataKey } = o;
 
-            setOpacity({ ...opacity, [dataKey]: 0.8 });
+            setOpacity({ ...opacity, [dataKey]: .5 });
         },
         [opacity, setOpacity]
     );
