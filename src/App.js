@@ -1,10 +1,16 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import { useEffect } from "react";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import NotFound from "./Components/NotFound";
 import Reviews from "./Components/Reviews";
 
 function App() {
+  const {pathname} = useLocation();
+  useEffect(()=> {
+    window.scrollTo(0,0);
+  },[pathname]);
+
   return (
     <div className="">
       <Header></Header>

@@ -29,10 +29,7 @@ const Home = () => {
                     croppedReviews.length?croppedReviews.map(review =><Review key={review.id} review={review}></Review>):<Loading/>
                 }
                 <div className='h-20 basis-full flex justify-center items-center'>
-                    <button className='btn-dark' onClick={()=> {
-                        navigate('/reviews',{replace:true});
-                        window.scrollTo(0, 0);
-                    }}>See All Reviews</button>
+                    <button className='btn-dark' onClick={()=> navigate('/reviews')}>See All Reviews</button>
                 </div>
             </section>
         </div>
