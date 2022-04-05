@@ -34,7 +34,7 @@
 }
 
 .review-card p{
-  @apply text-gray-700 text-center
+  @apply text-gray-700 text-sm leading-4 text-center
   h-[6.2rem] overflow-auto px-8;
 }
 

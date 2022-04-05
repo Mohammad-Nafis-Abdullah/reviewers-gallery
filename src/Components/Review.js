@@ -8,7 +8,7 @@ const Review = ({review}) => {
             <img src={img} alt="" />
             <h3>{name},</h3>
             <p><b className='text-4xl absolute left-[7.5%] top-[46%]'>“</b>{description}<b className='text-4xl absolute right-[10%] bottom-[12%]'>”</b></p>
-            <h5>Ratings : {ratings}/5</h5>
+            <h5>Ratings : {ratings}</h5>
         </div>
     );
 };
