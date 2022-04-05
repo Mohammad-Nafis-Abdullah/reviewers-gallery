@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import Blogs from "./Components/Blogs";
 import Dashboard from "./Components/Dashboard";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
@@ -20,7 +21,7 @@ function App() {
         <Route path="/home" element={<Home/>}/>
         <Route path="/reviews" element={<Reviews/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
-        <Route path="" element={''}/>
+        <Route path="/blogs" element={<Blogs/>}/>
         <Route path="" element={''}/>
         <Route path="/*" element={<NotFound/>}/>
       </Routes>
