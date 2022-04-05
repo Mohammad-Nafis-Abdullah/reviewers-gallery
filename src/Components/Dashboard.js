@@ -7,7 +7,7 @@ const Dashboard = () => {
     const data = useFetch('chartData.json')
 
     return (
-        <div className='container mx-auto px-5 my-16 flex justify-evenly items-end gap-x-5 gap-y-20 flex-wrap'>
+        <div className='container mx-auto px-5 my-16 flex justify-evenly items-end gap-x-5 gap-y-20 flex-wrap fadeIn'>
             <div className='basis-[330px] pt-5'>
                 <h2 className='text-2xl font-medium text-center underline decoration-[3px] underline-offset-2'>Month wise Sell</h2>
                 <SellRadar data={data}/>

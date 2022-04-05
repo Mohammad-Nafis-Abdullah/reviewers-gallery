@@ -12,7 +12,7 @@ const Home = () => {
 
 
     return (
-        <div className='container mx-auto mt-20 py-5 px-5 min-h-screen'>
+        <div className='container mx-auto mt-20 py-5 px-5 min-h-screen fadeIn'>
 
             <section className=' flex justify-center flex-wrap-reverse gap-x-16 gap-y-5'>
                 <div className='basis-[31rem] shrink flex flex-col justify-center p-1 gap-5'>

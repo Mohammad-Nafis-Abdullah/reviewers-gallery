@@ -22,8 +22,16 @@
   @apply py-5 px-3 shadow-lg 
   border rounded-3xl border-b-0
   basis-96 flex flex-col gap-3;
-
 }
+
+.fadeIn{
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} 
 
 .review-card img{
   @apply w-20 mx-auto rounded-full;
