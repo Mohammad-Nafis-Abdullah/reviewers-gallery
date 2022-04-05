@@ -14,7 +14,7 @@ const Dashboard = () => {
             </div>
 
             <div className='basis-[330px]'>
-                <h2 className='text-2xl font-medium text-center underline decoration-[3px] underline-offset-2'>Investment and Revenue</h2>
+                <h2 className='text-2xl font-medium text-center underline decoration-[3px] underline-offset-2'>Investment vs Revenue</h2>
                 <RevenueChart data={data}/>
             </div>
         </div>
