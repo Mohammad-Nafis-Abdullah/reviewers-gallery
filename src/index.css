@@ -41,3 +41,53 @@
 .review-card h5{
   @apply font-bold text-slate-800;
 }
+
+
+.fromRight{
+  visibility: hidden;
+  animation: bounceInRight 1s forwards .5s;
+}
+
+.fromLeft{
+  visibility: hidden;
+  animation: bounceInLeft 1s forwards .5s;
+}
+
+@keyframes bounceInLeft {
+  0% {
+      visibility: visible;
+      opacity: 0;
+      transform: translateX(-100vw);
+  }
+  60% {
+      opacity: 1;
+      transform: translateX(30px);
+  }
+  80% {
+      transform: translateX(-2px);
+  }
+  100% {
+      visibility: visible;
+      transform: translateX(0);
+  }
+} 
+
+
+@keyframes bounceInRight {
+  0% {
+      visibility: visible;
+      opacity: 0;
+      transform: translateX(100vw);
+  }
+  60% {
+      opacity: 1;
+      transform: translateX(-30px);
+  }
+  80% {
+      transform: translateX(2px);
+  }
+  100% {
+      visibility: visible;
+      transform: translateX(0);
+  }
+} 
