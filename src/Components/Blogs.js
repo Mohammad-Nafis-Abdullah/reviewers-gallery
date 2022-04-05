@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='container mx-auto px-5 mt-20 mb-10 py-8 h-screen flex justify-center items-start gap-5 flex-wrap fadeIn'>
+        <div className='container mx-auto px-5 my-20 b-10 min-h-screen flex justify-center items-start gap-5 flex-wrap fadeIn'>
 
             <h1 className='basis-full text-center text-4xl font-medium underline underline-offset-8 text-gray-900'>Question and Answer</h1>
 

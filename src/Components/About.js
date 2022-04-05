@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='flex justify-center items-center px-5 mt-32 gap-3 flex-wrap'>
+        <div className='flex justify-center items-center px-5 pb-10 mt-32 gap-3 flex-wrap'>
             <div className='max-w-xs border shadow-md bg-slate-400/10 rounded p-3 fromLeft'>
                 <img src="https://i.pinimg.com/originals/f1/13/90/f113905fe574931e323146cbf829edc1.jpg" alt="" className='max-h-40 w-full object-cover object-top rounded'/>
                 <h3 className='text-xl text-gray-900 font-medium my-3 uppercase'>Chittagong Branch :</h3>
