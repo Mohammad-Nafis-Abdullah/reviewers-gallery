@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import About from "./Components/About";
 import Blogs from "./Components/Blogs";
 import Dashboard from "./Components/Dashboard";
 import Header from "./Components/Header";
@@ -22,7 +23,7 @@ function App() {
         <Route path="/reviews" element={<Reviews/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/blogs" element={<Blogs/>}/>
-        <Route path="" element={''}/>
+        <Route path="/about" element={<About/>}/>
         <Route path="/*" element={<NotFound/>}/>
       </Routes>
 
