@@ -16,7 +16,7 @@ const Home = () => {
 
             <section className=' flex justify-center flex-wrap-reverse gap-x-16 gap-y-5'>
                 <div className='basis-[31rem] shrink flex flex-col justify-center p-1 gap-5'>
-                    <h1 className='text-3xl sm:text-4xl font-medium text-slate-900/80'>Our <strong className='text-slate-900'>Watches</strong> are just for your <strong className='text-slate-900'>Happines</strong></h1>
+                    <h1 className='text-3xl sm:text-4xl font-medium text-slate-900/80'>Our <strong className='text-slate-900'>Watches</strong> are just for your <strong className='text-slate-900'>Happiness</strong></h1>
                     <p className='text-lg text-justify text-slate-700'>At <strong className='text-slate-900'>Watch Arena</strong>, we can guarantee you will find more watch brands than anywhere else. From the biggest designer brands, to the best of luxury and some hidden gems, along with outstanding service and next day delivery, <strong className='text-slate-900'>Watch Arena</strong> is the hottest place to buy your next watch.</p>
                     <button onClick={()=> navigate('/about')} className='btn-dark self-start'>About Us</button>
                 </div>
